@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Team Profile</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #afeeee;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding-top: 30px;
+            min-height: 70px;
+            border-bottom: #0779e4 3px solid;
+        }
+        header h1 {
+            text-align: center;
+            margin: 0;
+            font-size: 36px;
+        }
+        .team {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            margin-top: 30px;
+        }
+        .team-member {
+            background: #ffffd6;
+            margin: 20px;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: 30%;
+            text-align: center;
+        }
+        .team-member img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            margin-bottom: 15px;
+        }
+        .team-member h2 {
+            margin-bottom: 10px;
+            font-size: 24px;
+        }
+        .team-member p {
+            font-size: 16px;
+            color: #555;
+        }
+        @media(max-width: 768px) {
+            .team-member {
+                width: 100%;
+                margin: 10px 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Meet BSIT-3O Group 2</h1>
+        </div>
+    </header>
+    
+    <div class="container">
+        <div class="team">
+            <!-- Team Member 1 -->
+            <div class="team-member">
+              <img src="richmond.jpg" alt="Member 1">
+                <h2>Richmond Yabut</h2>
+                <p>Group Leader</p>
+                <p>A 3rd year BSIT working student.</p>
+            </div>
+            <!-- Team Member 2 -->
+            <div class="team-member">
+                <img src="member2.jpg" alt="Member 2">
+                <h2>Rongavilla Almar</h2>
+                <p>Member</p>
+                <p>Working Student</p>
+            </div>
+            <!-- Team Member 3 -->
+            <div class="team-member">
+                <img src="member3.jpg" alt="Member 3">
+                <h2>Angelo Coronejo </h2>
+                <p>Member</p>
+                <p>Working Student</p>
+            </div>
+	    <!-- Team Member 3 -->
+            <div class="team-member">
+                <img src="member3.jpg" alt="Member 3">
+                <h2>Beyonce Ciprez </h2>
+                <p>Member</p>
+                <p>Fulltime Student</p>
+            </div>
+	   <!-- Team Member 3 -->
+            <div class="team-member">
+                <img src="member3.jpg" alt="Member 3">
+                <h2>Jan Lea Capones </h2>
+                <p>Member</p>
+                <p>Working Student</p>
+            </div>
+
+
+        </div>
+    </div>
+</body>
+</html>
