@@ -7,9 +7,12 @@
     <style>
         body {
             font-family: Arial, sans-serif;
-            background-color: #afeeee;
-            margin: 0;
-            padding: 0;
+    background-image: url('background.jpg');
+    background-size: cover;
+    background-position: center;
+	
+    margin: 0;
+    padding: 0;
         }
         .container {
             width: 80%;
@@ -35,7 +38,7 @@
             margin-top: 30px;
         }
         .team-member {
-            background: #ffffd6;
+            background: #add8e6;
             margin: 20px;
             padding: 20px;
             border-radius: 10px;
@@ -68,7 +71,7 @@
 <body>
     <header>
         <div class="container">
-            <h1>Meet BSIT-3O Group 2</h1>
+            <h1>Meet Group 2</h1>
         </div>
     </header>
     
@@ -79,33 +82,48 @@
               <img src="richmond.jpg" alt="Member 1">
                 <h2>Richmond Yabut</h2>
                 <p>Group Leader</p>
-                <p>A 3rd year BSIT working student.</p>
+		<p>AGE: 25</p>
+		<p>Birthplace:Muntinlupa</p>
+                <p>A 3rd year BSIT Student</p>
+		<p>Working Student</p>
             </div>
             <!-- Team Member 2 -->
             <div class="team-member">
-                <img src="member2.jpg" alt="Member 2">
+                <img src="Almar.jpg" alt="Member 2">
                 <h2>Rongavilla Almar</h2>
                 <p>Member</p>
+		<p>AGE: 20</p>
+		<p>Birthplace:Muntinlupa</p>
+                <p>A 3rd year BSIT Student</p>
                 <p>Working Student</p>
             </div>
             <!-- Team Member 3 -->
             <div class="team-member">
-                <img src="member3.jpg" alt="Member 3">
+                <img src="Angelo.jpg" alt="Member 3">
                 <h2>Angelo Coronejo </h2>
                 <p>Member</p>
+		<p>AGE:20</p>
+		<p>Birthplace:Pasig City </p>
+                <p>A 3rd year BSIT student</p>
                 <p>Working Student</p>
             </div>
 	    <!-- Team Member 3 -->
             <div class="team-member">
-                <img src="member3.jpg" alt="Member 3">
+                <img src="Beyonce.jpg" alt="Member 3">
                 <h2>Beyonce Ciprez </h2>
                 <p>Member</p>
+		<p>AGE:20</p>
+		<p>Birthplace:Muntinlupa</p>
+                <p>A 3rd year BSIT student</p>	
                 <p>Fulltime Student</p>
             </div>
 	   <!-- Team Member 3 -->
             <div class="team-member">
-                <img src="member3.jpg" alt="Member 3">
+                <img src="Lea.jpg" alt="Member 3">
                 <h2>Jan Lea Capones </h2>
+		<p>AGE: 20</p>
+		<p>Birthplace:Muntinlupa</p>
+                <p>A 3rd year BSIT Student</p>
                 <p>Member</p>
                 <p>Working Student</p>
             </div>
